@@ -10,9 +10,9 @@ dat <- data.frame(a, b, c, d)
 library(ggplot2)
 
 #scatter plot of a vs b
-fig1 <- ggplot(dat, aes(x = a, y = b)) +
+fig3 <- ggplot(dat, aes(x = a, y = b)) +
   geom_point() +
   theme_minimal()
 
 # save fig1
-ggsave("fig1.png", fig1, width = 6, height = 4, dpi = 300)
+ggsave("fig1.png", fig3, width = 6, height = 4, dpi = 300)
